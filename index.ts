@@ -210,7 +210,6 @@ async function main(): Promise<void> {
     let idIndex : Map<string, string> = await loadIndex();
         
     let choice: string = await getMainQuestions();
-    console.log(idIndex);
     
     while (choice != "6") {
 
